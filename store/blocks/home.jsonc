@@ -88,8 +88,7 @@
 
     "rich-text#desktop": {
         "props": {
-            "text": "###Your Coffee, Your Way \n ### New Coffee Makers Collection",
-            "textAlignment": "CENTER"
+            "text": "###Your Coffee, Your Way \n ### New Coffee Makers Collection"
         }
     },
 

@@ -110,7 +110,6 @@
             "alt": "Coffee Makers Collection"
         }
     },
-
     "image#mobile": {
         "props": {
             "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
@@ -121,5 +120,4 @@
             "alt": "Coffee Makers Collection"
         }
     }
-
 }

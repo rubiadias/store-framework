@@ -63,7 +63,7 @@
         "props": {
             "initialSelection": "empty",
             "showValueForVariation": "showValueForVariation",
-            "visibility": "more-than-one"
+            "showVariationsErrorMessage": true
         }
     }
 }

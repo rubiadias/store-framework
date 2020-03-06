@@ -1,6 +1,6 @@
 {
     "store.custom#about-us": {
-        "children": [
+        "blocks": [
             "tab-layout#home"
         ]
     },

@@ -37,7 +37,6 @@
     },
     "tab-content.item#home1": {
         "children": [
-            "rich-text#home1Title",
             "rich-text#home1"
         ],
         "props": {
@@ -52,16 +51,9 @@
             "tabId": "electronics"
         }
     },
-    "rich-text#home1Title": {
-        "props": {
-            "text": "# __Nossa História__\n",
-            "textPosition": "LEFT",
-            "font": "t-heading-1"
-        }
-    },
     "rich-text#home1": {
         "props": {
-            "text": "# __Nossa História__\n## __Nascemos de uma hackathon interna da VTEX!__\nIsso mesmo. A primeira Hackatheme (hackathon de temas de loja) da VTEX teve 3 finalistas. Um deles foi a FlatFlat, essa loja que vocês estão acessando agora. A FlatFlat foi criada pelos engenheiros Afonso Praça e Sávio Muniz, pelos designers Lucas Falcão e Augusto Barbosa, e pelo diretor de novos negócios Maurício Baum. Como a loja foi criada por profissionais com os mais diversos backgrounds, o resultado ficou óbvio: foram finalistas com o layout mais legal dentre os participantes.",
+            "text": "# **Nossa História**\n### **Nascemos de uma hackathon interna da VTEX!**\nIsso mesmo. A primeira Hackatheme (hackathon de temas de loja) da VTEX teve 3 finalistas. Um deles foi a FlatFlat, essa loja que vocês estão acessando agora. A FlatFlat foi criada pelos engenheiros Afonso Praça e Sávio Muniz, pelos designers Lucas Falcão e Augusto Barbosa, e pelo diretor de novos negócios Maurício Baum. Como a loja foi criada por profissionais com os mais diversos backgrounds, o resultado ficou óbvio: foram finalistas com o layout mais legal dentre os participantes.",
             "textPosition": "LEFT",
             "font": "t-heading-1"
         }

@@ -46,7 +46,7 @@
     },
     "tab-content.item#home2": {
         "children": [
-            "rich-text#home2"
+            "iframe"
         ],
         "props": {
             "tabId": "instagram"
@@ -58,11 +58,6 @@
             "textPosition": "LEFT",
             "font": "t-heading-1"
         }
-    },
-    "rich-text#home2": {
-        "children": [
-            "iframe"
-        ]
     },
     "iframe": {
         "props": {

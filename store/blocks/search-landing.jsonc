@@ -1,0 +1,33 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "flex-layout.row#landing",
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "flex-layout.row#landing": {
+        "children": [
+
+        ]
+    },
+    "image#landingbanner": {
+        "props":{
+            "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+            "minWidth": "100%",
+            "height": 300
+        }
+    },
+    "search-result-layout.customQuery#home": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    }
+}

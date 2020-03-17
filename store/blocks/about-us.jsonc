@@ -1,69 +1,48 @@
 {
     "store.custom#about-us": {
         "blocks": [
-            "tab-layout#home",
-            "iframe"
+            "flex-layout.row#about-us"
         ]
     },
-    "tab-layout#home": {
+
+    "flex-layout.row#about-us": {
         "children": [
-            "tab-list#home",
-            "tab-content#home"
+            "image#mobile-phone",
+            "flex-layout.col#text-about-us"
         ]
     },
-    "tab-list#home": {
+
+    "flex-layout.col#text-about-us": {
         "children": [
-            "tab-list.item#home1",
-            "tab-list.item#home2"
-        ]
-    },
-    "tab-list.item#home1": {
-        "props": {
-            "tabId": "sobre",
-            "label": "Sobre",
-            "defaultActiveTab": true
-        }
-    },
-    "tab-list.item#home2": {
-        "props": {
-            "tabId": "instagram",
-            "label": "Instagram"
-        }
-    },
-    "tab-content#home": {
-        "children": [
-            "tab-content.item#home1",
-            "tab-content.item#home2"
-        ]
-    },
-    "tab-content.item#home1": {
-        "children": [
-            "rich-text#home1"
+            "rich-text#title-about-us",
+            "rich-text#about-us"
         ],
         "props": {
-            "tabId": "sobre"
+            "blockclass": "textColumn",
+            "preventVerticalStretch": true
         }
     },
-    "tab-content.item#home2": {
-        "children": [
-            "iframe"
-        ],
+
+    "rich-text#title-about-us": {
         "props": {
-            "tabId": "instagram"
+            "text": "# Create meaningful and relevant experiences.",
+            "blockClass": "title"
         }
     },
-    "rich-text#home1": {
+
+    "image#mobile-phone": {
         "props": {
-            "text": "# **Nossa História**\n### **Nascemos de uma hackathon interna da VTEX!**\nIsso mesmo. A primeira Hackatheme (hackathon de temas de loja) da VTEX teve 3 finalistas. Um deles foi a FlatFlat, essa loja que vocês estão acessando agora. A FlatFlat foi criada pelos engenheiros Afonso Praça e Sávio Muniz, pelos designers Lucas Falcão e Augusto Barbosa, e pelo diretor de novos negócios Maurício Baum. Como a loja foi criada por profissionais com os mais diversos backgrounds, o resultado ficou óbvio: foram finalistas com o layout mais legal dentre os participantes.",
-            "textPosition": "LEFT",
-            "font": "t-heading-1"
+            "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
         }
     },
-    "iframe": {
+
+    "rich-text#about-us": {
         "props": {
-            "src": "https://www.instagram.com/p/B37Zfd6FobU/embed",
-            "width": 800,
-            "height": 1000
+            "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+            "blockClass": "about"
         }
     }
 }

@@ -1,7 +1,6 @@
 {
     "store.custom#landing": {
         "blocks": [
-            "flex-layout.row#landing",
             "image#landingbanner",
             "search-result-layout.customQuery"
         ]

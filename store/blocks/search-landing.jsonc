@@ -17,7 +17,7 @@
             "height": 300
         }
     },
-    "search-result-layout.customQuery#home": {
+    "search-result-layout.customQuery": {
         "props": {
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",

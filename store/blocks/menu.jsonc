@@ -39,12 +39,12 @@
 
 
 
-    "vtex.menu@2.x:submenu#small-appliances": {
+    "vtex.menu@2.x:submenu#small": {
         "children": [
-            "vtex.menu@2.x:menu#small-appliances"
+            "vtex.menu@2.x:menu#small"
         ]
     },
-    "vtex.menu@2.x:menu#small-appliances": {
+    "vtex.menu@2.x:menu#small": {
         "children": [
             "menu-item#mixers",
             "menu-item#toasters",
@@ -63,7 +63,7 @@
                 "text": "Small Appliances"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#small-appliances"] // Defining a submenu
+        "blocks": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
     },
 
 

@@ -5,11 +5,11 @@
             "menu-item#small-appliances",
             "menu-item#electronics"
         ],
-
         "props": {
             "orientation": "horizontal"
         }
     },
+
     "vtex.menu@2.x:submenu#major-appliances": {
         "children": [
             "vtex.menu@2.x:menu#major-appliances"
@@ -25,11 +25,25 @@
             "orientation": "vertical"
         }
     },
-     "vtex.menu@2.x:submenu#small-appliances": {
-         "children": [
-             "vtex.menu@2.x:menu#small-appliances"
-         ]
-     },
+    "menu-item#major-appliances": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 1,
+                "text": "Major Appliances"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#major-appliances"] // Defining a submenu
+    },
+
+
+
+    "vtex.menu@2.x:submenu#small-appliances": {
+        "children": [
+            "vtex.menu@2.x:menu#small-appliances"
+        ]
+    },
     "vtex.menu@2.x:menu#small-appliances": {
         "children": [
             "menu-item#mixers",
@@ -40,11 +54,25 @@
             "orientation": "vertical"
         }
     },
-     "vtex.menu@2.x:submenu#electronics": {
-         "children": [
-             "vtex.menu@2.x:menu#electronics"
-         ]
-     },
+    "menu-item#small-appliances": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 2,
+                "text": "Small Appliances"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#small-appliances"] // Defining a submenu
+    },
+
+
+
+    "vtex.menu@2.x:submenu#electronics": {
+        "children": [
+            "vtex.menu@2.x:menu#electronics"
+        ]
+    },
     "vtex.menu@2.x:menu#electronics": {
         "children": [
             "menu-item#cameras",
@@ -54,5 +82,16 @@
         "props": {
             "orientation": "vertical"
         }
+    },
+    "menu-item#electronics": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 3,
+                "text": "Electronics"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#electronics"] // Defining a submenu
     }
-}
+  }

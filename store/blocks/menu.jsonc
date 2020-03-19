@@ -20,10 +20,10 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#major"
+            "vtex.menu@2.x:submenu#major-appliances"
         ]
     },
-    "vtex.menu@2.x:submenu#major": {
+    "vtex.menu@2.x:submenu#major-appliances": {
         "children": [
             "vtex.menu@2.x:menu#major"
         ]
@@ -38,36 +38,7 @@
             "orientation": "vertical"
         }
     },
-    "menu-item#refrigerators": {
-        "props": {
-            "type": "category",
-            "highlight": true,
-            "itemProps": {
-                "categoryId": 4,
-                "text": "Refrigerators"
-            }
-        }
-    },
-    "menu-item#ovens": {
-        "props": {
-            "type": "category",
-            "highlight": true,
-            "itemProps": {
-                "categoryId": 5,
-                "text": "Ranges & Ovens"
-            }
-        }
-    },
-    "menu-item#washers": {
-        "props": {
-            "type": "category",
-            "highlight": true,
-            "itemProps": {
-                "categoryId": 6,
-                "text": "Washers & Dryers"
-            }
-        }
-    },
+
 
 
     "menu-item#small-appliances": {

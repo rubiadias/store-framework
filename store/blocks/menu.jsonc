@@ -15,7 +15,7 @@
             "vtex.menu@2.x:menu#major"
         ]
     },
-    "vtex.menu@2.x:menu#major-appliances": {
+    "vtex.menu@2.x:menu#major": {
         "children": [
             "menu-item#refrigerators",
             "menu-item#ovens",

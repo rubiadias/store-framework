@@ -9,7 +9,7 @@
             "orientation": "horizontal"
         }
     },
-    
+
     "menu-item#major-appliances": {
         "props": {
             "type": "category",
@@ -20,10 +20,10 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#major"
+            "vtex.menu@2.x:submenu#major-appliances"
         ]
     },
-    "vtex.menu@2.x:submenu#major": {
+    "vtex.menu@2.x:submenu#major-appliances": {
         "children": [
             "vtex.menu@2.x:menu#major"
         ]
@@ -41,7 +41,17 @@
 
 
 
-
+    "menu-item#small-appliances": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+                "categoryId": 2,
+                "text": "Small Appliances"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
+    },
     "vtex.menu@2.x:submenu#small": {
         "children": [
             "vtex.menu@2.x:menu#small"
@@ -57,20 +67,20 @@
             "orientation": "vertical"
         }
     },
-    "menu-item#small-appliances": {
+
+
+
+    "menu-item#electronics": {
         "props": {
             "type": "category",
             "highlight": true,
             "itemProps": {
-                "categoryId": 2,
-                "text": "Small Appliances"
+                "categoryId": 3,
+                "text": "Electronics"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#small"] // Defining a submenu
+        "blocks": ["vtex.menu@2.x:submenu#electronics"] // Defining a submenu
     },
-
-
-
     "vtex.menu@2.x:submenu#electronics": {
         "children": [
             "vtex.menu@2.x:menu#electronics"
@@ -85,16 +95,5 @@
         "props": {
             "orientation": "vertical"
         }
-    },
-    "menu-item#electronics": {
-        "props": {
-            "type": "category",
-            "highlight": true,
-            "itemProps": {
-                "categoryId": 3,
-                "text": "Electronics"
-            }
-        },
-        "blocks": ["vtex.menu@2.x:submenu#electronics"] // Defining a submenu
     }
   }

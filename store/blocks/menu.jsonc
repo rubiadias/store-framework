@@ -10,9 +10,9 @@
         }
     },
 
-    "vtex.menu@2.x:submenu#major-appliances": {
+    "vtex.menu@2.x:submenu#major": {
         "children": [
-            "vtex.menu@2.x:menu#major-appliances"
+            "vtex.menu@2.x:menu#major"
         ]
     },
     "vtex.menu@2.x:menu#major-appliances": {
@@ -34,7 +34,7 @@
                 "text": "Major Appliances"
             }
         },
-        "blocks": ["vtex.menu@2.x:submenu#major-appliances"] // Defining a submenu
+        "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
     },
 
 

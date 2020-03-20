@@ -29,8 +29,6 @@
         ]
     },
 
-
-
     "menu-item#small-appliances": {
         "props": {
             "type": "category",

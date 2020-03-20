@@ -28,7 +28,6 @@
             "flex-layout.row#major"
         ]
     },
-
     "menu-item#small-appliances": {
         "props": {
             "type": "category",

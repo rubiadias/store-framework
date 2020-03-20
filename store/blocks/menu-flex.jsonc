@@ -1,9 +1,6 @@
 {
     "flex-layout.row#major": {
         "children": [
-            "menu-item#refrigerators",
-            "menu-item#ovens",
-            "menu-item#washers",
             "flex-layout.col#menu",
             "flex-layout.col#img"
         ]
